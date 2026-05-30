@@ -6,6 +6,12 @@ Pet image classification using MobileNetV3 and transfer learning on PyTorch.
 
 Transfer learning approach to classify pet images from the Oxford-IIIT Pet dataset using a pre-trained MobileNetV3 model. Efficient classification with feature freezing and fine-tuning.
 
+## 📌 Important Note on Notebook Rendering
+
+If GitHub displays an **"An error occurred"** message while trying to view `Caltech-101.ipynb`, please **download the file** and open it locally (via VS Code, Jupyter Notebook, or Google Colab). 
+
+The repository's render engine sometimes fails due to GitHub's internal timeout limitations, but the file itself is completely intact and opens perfectly fine when downloaded or cloned.
+
 ## Key Features
 
 - **Transfer Learning**: Pre-trained MobileNetV3 weights from ImageNet
@@ -41,7 +47,7 @@ pip install -r requirements.txt
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/<your-username>/oxford-pet-classifier.git
+git clone https://github.com/BerhakTanyildizi/oxford-pet-classifier.git
 cd oxford-pet-classifier
 ```
 
